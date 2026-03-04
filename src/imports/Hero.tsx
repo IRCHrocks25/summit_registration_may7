@@ -1,5 +1,42 @@
-import imgHero from "../assets/45872a6a35a44dfa2ef16ca4f5efe4d38b2bbfc3.png";
-import { useRegistration } from "../app/contexts/RegistrationContext";
+import imgHero from "figma:asset/45872a6a35a44dfa2ef16ca4f5efe4d38b2bbfc3.png";
+import { useFormModal } from "../app/contexts/FormModalContext";
+
+function NavBar() {
+  const { openForm } = useFormModal();
+  
+  return (
+    <div className="content-stretch flex items-center justify-between relative shrink-0 w-full" data-name="NAV BAR">
+      {/* Logo */}
+      <div className="flex items-center gap-2">
+        <svg className="shrink-0 w-5 h-5 md:w-6 md:h-6" fill="none" viewBox="0 0 24 24">
+          <path
+            d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"
+            stroke="url(#logoGrad)"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+          <defs>
+            <linearGradient id="logoGrad" x1="0" y1="0" x2="1" y2="1">
+              <stop stopColor="#AA45E8" />
+              <stop offset="1" stopColor="#E84592" />
+            </linearGradient>
+          </defs>
+        </svg>
+        <span className="font-['Plus_Jakarta_Sans:Light',sans-serif] font-light text-white text-base md:text-lg tracking-wide">
+          CHANGE <span className="font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold">AI</span> MANAGEMENT
+        </span>
+      </div>
+      {/* CTA nav button */}
+      <div 
+        className="bg-white/10 border border-white/20 backdrop-blur-sm flex items-center justify-center px-4 md:px-6 py-2 rounded-full shrink-0 cursor-pointer hover:bg-white/20 transition-colors"
+        onClick={openForm}
+      >
+        <p className="font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold text-white text-xs md:text-sm uppercase tracking-wide">Watch the video</p>
+      </div>
+    </div>
+  );
+}
 
 function HeadlineContainer() {
   return (
@@ -16,7 +53,7 @@ function HeadlineContainer() {
             {"That Enterprises Are Desperately Seeking "}
           </span>
         </p>
-        <p className="font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[1.24] text-[#EE00FF] text-[18px] sm:text-[22px] md:text-[28px] lg:text-[37.789px]">
+        <p className="font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[1.24] text-[#EF00FF] text-[18px] sm:text-[22px] md:text-[28px] lg:text-[37.789px]">
           (And Willing to Pay $15K-$50K Per Engagement)
         </p>
       </div>
@@ -25,20 +62,20 @@ function HeadlineContainer() {
 }
 
 function ButtonContainer() {
-  const { openRegistration } = useRegistration();
+  const { openForm } = useFormModal();
   
   return (
     <div
-      onClick={openRegistration}
       className="flex items-center justify-center w-full sm:w-auto px-6 md:px-[43px] py-[11px] rounded-[27px] shrink-0 cursor-pointer hover:opacity-90 transition-opacity"
       data-name="Button Container"
+      onClick={openForm}
       style={{
         backgroundImage:
           "linear-gradient(161.704deg, rgb(170, 69, 232) 26.236%, rgb(36, 69, 255) 86.882%)",
       }}
     >
       <p className="font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold leading-[1.25] text-[13px] sm:text-[15px] md:text-[16.567px] text-center text-white uppercase tracking-wide whitespace-nowrap">
-        REGISTER FOR THE NEXT AVAILABLE SESSION
+        RESERVE MY FREE WORKSHOP SEAT
       </p>
     </div>
   );
@@ -47,14 +84,14 @@ function ButtonContainer() {
 function TextContainer() {
   return (
     <div
-      className="flex flex-col gap-6 md:gap-[34.516px] items-start w-full md:flex-[1_0_0]"
+      className="flex flex-col gap-4 md:gap-6 items-center w-full text-center"
       data-name="Text Container"
     >
       <div className="font-['Plus_Jakarta_Sans:Medium',sans-serif] font-medium text-white w-full">
-        <p className="font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold mb-2 text-[17px] sm:text-[19px] md:text-[22.09px] leading-[1.4]">
+        <p className="font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold mb-2 text-[17px] sm:text-[19px] md:text-[22.09px] leading-[1.4] text-white">
           {"Free 2-hour executive workshop reveals why 95% of AI implementations fail,"}
         </p>
-        <p className="text-[14px] sm:text-[16px] md:text-[17.948px] leading-[1.6] text-white/85">
+        <p className="text-[14px] sm:text-[16px] md:text-[17.948px] leading-[1.6] text-white">
           {"and how YOU can become the consultant who fixes what $500M in technology spending couldn't."}
         </p>
       </div>
@@ -66,16 +103,19 @@ function TextContainer() {
 function VideoPlaceholder() {
   return (
     <div
-      className="w-full md:flex-[1_0_0] h-[220px] sm:h-[280px] md:h-[323.848px] relative rounded-[8.788px] overflow-hidden shrink-0"
-      data-name="Image"
+      className="w-full max-w-[576px] mx-auto h-[176px] sm:h-[256px] md:h-[320px] relative rounded-[12px] overflow-hidden shrink-0"
+      style={{
+        boxShadow: "0 8px 40px rgba(107,36,160,0.35)",
+        border: "1.5px solid rgba(170,69,232,0.35)",
+      }}
     >
       <iframe
-        id="hero-video-iframe"
         src="https://drive.google.com/file/d/1wBzB2g5TP3kXI11Kw7SMCl9Mhyo4bIrL/preview"
-        className="absolute inset-0 w-full h-full rounded-[8.788px]"
-        allow="autoplay; fullscreen"
+        className="absolute inset-0 w-full h-full"
+        allow="autoplay"
         allowFullScreen
-        title="Video"
+        style={{ border: "none" }}
+        title="AI Change Management Workshop"
       />
     </div>
   );
@@ -84,7 +124,7 @@ function VideoPlaceholder() {
 function ContentContainer() {
   return (
     <div
-      className="flex flex-col md:flex-row gap-6 md:gap-[36.586px] items-center justify-center w-full"
+      className="flex flex-col gap-6 md:gap-8 items-center justify-center w-full"
       data-name="Content Container"
     >
       <VideoPlaceholder />
@@ -108,13 +148,19 @@ function ContentSection() {
 export default function Hero() {
   return (
     <div className="relative w-full min-h-[480px] md:min-h-[580px]" data-name="hero">
+      {/* Background image — full viewport width */}
       <img
         alt=""
         className="absolute inset-0 w-full h-full object-cover pointer-events-none"
         src={imgHero}
       />
-      <div className="relative flex flex-col items-center justify-center w-full h-full pt-12 pb-12 md:pt-20 md:pb-20 px-4 sm:px-8 md:px-16 lg:px-[200px] gap-6 md:gap-10">
-        <ContentSection />
+      {/* Subtle dark overlay to boost text legibility against the photo */}
+      <div className="absolute inset-0 bg-[#0a0d2e]/40 pointer-events-none" />
+      {/* Inner content — capped at MacBook Pro 16-inch max-width, centred */}
+      <div className="relative z-10 w-full max-w-[1728px] mx-auto h-full">
+        <div className="flex flex-col items-center justify-center w-full h-full pt-12 pb-12 md:pt-20 md:pb-20 px-4 sm:px-8 md:px-16 lg:px-[200px] gap-6 md:gap-10">
+          <ContentSection />
+        </div>
       </div>
     </div>
   );

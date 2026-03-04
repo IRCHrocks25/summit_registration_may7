@@ -1,32 +1,36 @@
 import svgPaths from "./svg-x0sxij5v6";
 import Hero from "./Hero";
-import { useRegistration } from "../app/contexts/RegistrationContext";
-import imgRecognitionItem11 from "../assets/7ec0de8a8abdc498a15aadceb83ba4791beff1b3.png";
-import imgRecognitionItem21 from "../assets/3ff4e580ddef3f92a5044bdd3bd162ff9f3ad2c5.png";
-import imgRecognitionItem31 from "../assets/e47fbbaa0b5f9e3f81a1e223712e2cef7b46b31c.png";
-import imgRecognitionItem41 from "../assets/182af471c7ae5b209ad318a19229732aa59bb85b.png";
-import imgRecognitionItem1 from "../assets/e720cddf2c83cba268d09bd9a0a81e1f0e6333a8.png";
-import imgGroup11712758051 from "../assets/f74c1db3a2639a115da1d8db3bbb59ad57be5630.png";
-import imgImage from "../assets/d9b3637157cba1fd79b58284c1d883c8cc853703.png";
-import imgDigitalArtStylePortraitAdultWoman1 from "../assets/0629ee0ea992b555b5775965c0e9f40378e2f44f.png";
-import imgConferenceGroup from "../assets/a0d4390c2945003b874154c82cdac36add966b14.png";
-import imgGroup117127580511 from "../assets/856fe10761a35a1937e3b85afbfc13e008c10861.png";
-import imgGermany2 from "../assets/a8a7021ef47bab13dfef0a7e9938ae5fb5f60437.png";
-import imgGermany3 from "../assets/8f8d723587e5609c167c931b390461da015d8daa.png";
-import imgGermany4 from "../assets/daaad4d2a93ec7635f8a2f8ae52cb4c9bd526441.png";
-import imgHumanCentered from "../assets/b235cbe45040abbf4791fdb71709e2bae7d8d18e.png";
-import imgGermany5 from "../assets/e2e5f5e54c1265fef4d001ca7b4e262cb35f5f99.png";
-import imgGermany6 from "../assets/7f8e3bb079110f6c3793e66481b8ef8475cce6e7.png";
-import imgKane12 from "../assets/c30511ef0c221800b1cbb3424dddbadd7bee2ab4.png";
-import imgGroup11712758081 from "../assets/71389237e1e07cd893b8939905c28896608797aa.png";
-import imgImage1 from "../assets/3d9586cda062a702018c2e417df861234fbf3f1d.png";
-import imgKane2 from "../assets/020b5506db23b15144229a85f26085cc4972bfaa.png";
-import imgFaq from "../assets/0ca98d62cef38cf31052ca6af2f311e5a993b238.png";
-import imgImage2 from "../assets/ed9e3ebabc64555f9e291f2b80d137e269613998.png";
+import { useFormModal } from "../app/contexts/FormModalContext";
+import imgRecognitionItem11 from "figma:asset/7ec0de8a8abdc498a15aadceb83ba4791beff1b3.png";
+import imgRecognitionItem21 from "figma:asset/3ff4e580ddef3f92a5044bdd3bd162ff9f3ad2c5.png";
+import imgRecognitionItem31 from "figma:asset/e47fbbaa0b5f9e3f81a1e223712e2cef7b46b31c.png";
+import imgRecognitionItem41 from "figma:asset/182af471c7ae5b209ad318a19229732aa59bb85b.png";
+import imgRecognitionItem1 from "figma:asset/e720cddf2c83cba268d09bd9a0a81e1f0e6333a8.png";
+import imgGroup11712758051 from "figma:asset/f74c1db3a2639a115da1d8db3bbb59ad57be5630.png";
+import imgImage from "figma:asset/d9b3637157cba1fd79b58284c1d883c8cc853703.png";
+import imgDigitalArtStylePortraitAdultWoman1 from "figma:asset/0629ee0ea992b555b5775965c0e9f40378e2f44f.png";
+import imgConferenceGroup from "figma:asset/a0d4390c2945003b874154c82cdac36add966b14.png";
+import imgGroup117127580511 from "figma:asset/856fe10761a35a1937e3b85afbfc13e008c10861.png";
+import imgGermany2 from "figma:asset/a8a7021ef47bab13dfef0a7e9938ae5fb5f60437.png";
+import imgGermany3 from "figma:asset/8f8d723587e5609c167c931b390461da015d8daa.png";
+import imgGermany4 from "figma:asset/daaad4d2a93ec7635f8a2f8ae52cb4c9bd526441.png";
+import imgHumanCentered from "figma:asset/b235cbe45040abbf4791fdb71709e2bae7d8d18e.png";
+import imgGermany5 from "figma:asset/e2e5f5e54c1265fef4d001ca7b4e262cb35f5f99.png";
+import imgGermany6 from "figma:asset/7f8e3bb079110f6c3793e66481b8ef8475cce6e7.png";
+import imgKane12 from "figma:asset/c30511ef0c221800b1cbb3424dddbadd7bee2ab4.png";
+import imgGroup11712758081 from "figma:asset/71389237e1e07cd893b8939905c28896608797aa.png";
+import imgImage1 from "figma:asset/3d9586cda062a702018c2e417df861234fbf3f1d.png";
+import imgKane2 from "figma:asset/020b5506db23b15144229a85f26085cc4972bfaa.png";
+import imgFaq from "figma:asset/0ca98d62cef38cf31052ca6af2f311e5a993b238.png";
+import imgImage2 from "figma:asset/ed9e3ebabc64555f9e291f2b80d137e269613998.png";
 import FeaturedOn from "./FeaturedOn";
 
+import TrustpilotSection from "./TrustpilotSection";
+import Frame1707482421 from "./Frame1707482421";
+import StatsStrip from "./StatsContainer";
 import ContentSection from "./ContentSection";
-import NavBar from "./NavBar";
+import AuthorName from "./AuthorName";
+import AuthorNameBranson from "./AuthorName-2009-196";
 
 function HeadlineContainer1() {
   return (
@@ -71,7 +75,7 @@ function RecognitionSection() {
   return (
     <div className="bg-white relative shrink-0 w-full" data-name="Recognition Section">
       <div className="flex flex-col items-center size-full">
-        <div className="content-stretch flex flex-col gap-[35.206px] items-center px-4 sm:px-8 md:px-12 lg:px-[120px] xl:px-[200px] py-[39.348px] relative w-full">
+        <div className="max-w-[1728px] mx-auto content-stretch flex flex-col gap-[35.206px] items-center px-4 sm:px-8 md:px-12 lg:px-[120px] xl:px-[200px] py-[39.348px] relative w-full">
           <HeadlineContainer1 />
           <RecognitionItems />
         </div>
@@ -83,11 +87,6 @@ function RecognitionSection() {
 function Frame1() {
   return (
     <div className="content-stretch flex flex-col gap-[14px] items-start relative shrink-0 w-full">
-      <p className="font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold leading-[1.15] relative shrink-0 tracking-[-1px] md:tracking-[-1.5463px] w-full">
-        <span className="leading-[1.15] text-[24px] sm:text-[30px] md:text-[38.657px]">The</span>
-        <span className="font-['Playfair_Display:Bold_Italic',sans-serif] italic leading-[1.15] text-[25px] sm:text-[32px] md:text-[38.657px]">{` $50 Billion Problem `}</span>
-        <span className="leading-[1.15] text-[24px] sm:text-[30px] md:text-[38.657px]">{`Nobody's Talking About`}</span>
-      </p>
       <p className="font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold leading-[1.4] relative shrink-0 text-[15px] md:text-[17.948px] tracking-[-0.1795px] w-full">Right now, Fortune 500 companies and mid-market enterprises are hemorrhaging money on AI initiatives that look brilliant on paper but die silent deaths in execution.</p>
       <div className="font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[1.6] relative shrink-0 text-[14px] md:text-[16.567px] tracking-[-0.1657px] w-full">
         <p className="mb-2">The technology works. The strategy is sound. The ROI projections are real.</p>
@@ -176,9 +175,18 @@ function TextContainer1() {
 
 function Frame3() {
   return (
-    <div className="bg-white flex flex-col md:flex-row gap-8 md:gap-[69px] items-start md:items-end px-4 sm:px-8 md:px-16 lg:px-[270px] py-10 md:py-[68px] relative shrink-0 w-full">
-      <Frame2 />
-      <TextContainer1 />
+    <div className="bg-white relative shrink-0 w-full">
+    <div className="max-w-[1728px] mx-auto flex flex-col gap-8 md:gap-[48px] items-center px-4 sm:px-8 md:px-16 lg:px-[270px] py-10 md:py-[68px] relative w-full">
+      <p className="font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold leading-[1.15] relative shrink-0 tracking-[-1px] md:tracking-[-1.5463px] w-full text-center text-[#0d1353]">
+        <span className="leading-[1.15] text-[24px] sm:text-[30px] md:text-[38.657px]">The</span>
+        <span className="font-['Playfair_Display:Bold_Italic',sans-serif] italic leading-[1.15] text-[25px] sm:text-[32px] md:text-[38.657px]">{` $50 Billion Problem `}</span>
+        <span className="leading-[1.15] text-[24px] sm:text-[30px] md:text-[38.657px]">{`Nobody's Talking About`}</span>
+      </p>
+      <div className="flex flex-col md:flex-row gap-8 md:gap-[69px] items-start md:items-end w-full">
+        <Frame2 />
+        <TextContainer1 />
+      </div>
+    </div>
     </div>
   );
 }
@@ -186,14 +194,9 @@ function Frame3() {
 function AuthorInfo() {
   return (
     <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-name="Author Info">
-      <p className="bg-clip-text font-['Manrope:Bold',sans-serif] font-bold leading-[0] relative shrink-0 text-[0px] text-[14.97px] text-white w-full" style={{ backgroundImage: "linear-gradient(90deg, rgb(60, 128, 255) 0%, rgb(117, 34, 189) 100%), linear-gradient(-4.53062deg, rgb(249, 5, 242) 16.982%, rgb(0, 0, 0) 86.805%), linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%)", WebkitTextFillColor: "transparent" }}>
-        <span className="bg-clip-text font-['Plus_Jakarta_Sans:Bold',sans-serif] leading-[20.316px]" style={{ backgroundImage: "linear-gradient(90deg, rgb(60, 128, 255) 0%, rgb(117, 34, 189) 100%), linear-gradient(-4.53062deg, rgb(249, 5, 242) 16.982%, rgb(0, 0, 0) 86.805%), linear-gradient(90deg, rgb(13, 19, 83) 0%, rgb(13, 19, 83) 100%)", WebkitTextFillColor: "transparent" }}>
-          ROBERT
-        </span>
-        <span className="bg-clip-text font-['Plus_Jakarta_Sans:Light',sans-serif] font-light leading-[20.316px]" style={{ backgroundImage: "linear-gradient(90deg, rgb(60, 128, 255) 0%, rgb(117, 34, 189) 100%), linear-gradient(-4.53062deg, rgb(249, 5, 242) 16.982%, rgb(0, 0, 0) 86.805%), linear-gradient(90deg, rgb(13, 19, 83) 0%, rgb(13, 19, 83) 100%)", WebkitTextFillColor: "transparent" }}>
-          KIYOSAKI
-        </span>
-      </p>
+      <div className="w-[126.045px] h-[11.5117px] relative shrink-0">
+        <AuthorName />
+      </div>
       <p className="font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[16.039px] relative shrink-0 text-[10.693px] w-full">{`American businessman and author, known for the Rich Dad Poor Dad series `}</p>
     </div>
   );
@@ -220,7 +223,7 @@ function ContentSection1() {
   return (
     <div className="bg-[#f5f4fc] relative shrink-0 w-full" data-name="Content Section">
       <div className="flex flex-row items-center justify-center size-full">
-        <div className="content-center flex flex-wrap gap-[11.735px] items-center justify-center px-4 sm:px-8 md:px-16 lg:px-[180px] py-[17.258px] relative w-full">
+        <div className="max-w-[1728px] mx-auto content-center flex flex-wrap gap-[11.735px] items-center justify-center px-4 sm:px-8 md:px-16 lg:px-[180px] py-[17.258px] relative w-full">
           <TestimonialContainer />
           <div className="h-[274.398px] relative shrink-0 w-[239.538px]" data-name="Group 1171275805 1">
             <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgGroup11712758051} />
@@ -388,18 +391,18 @@ function TextContainer4() {
 }
 
 function ButtonContainer2() {
-  const { openRegistration } = useRegistration();
+  const { openForm } = useFormModal();
   
   return (
     <div 
-      onClick={openRegistration}
-      className="h-[53.154px] relative rounded-[27.612px] shrink-0 w-full cursor-pointer" 
+      className="h-[53.154px] relative rounded-[27.612px] shrink-0 w-full cursor-pointer hover:opacity-90 transition-opacity" 
       data-name="Button Container" 
+      onClick={openForm}
       style={{ backgroundImage: "linear-gradient(161.473deg, rgb(170, 69, 232) 26.236%, rgb(36, 69, 255) 86.882%), linear-gradient(90deg, rgb(255, 0, 246) 0%, rgb(255, 0, 246) 100%)" }}
     >
       <div className="flex flex-row items-center justify-center size-full">
         <div className="content-stretch flex items-center justify-center px-[13.806px] py-[11.045px] relative size-full">
-          <p className="font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold leading-[20.709px] relative shrink-0 text-[16.567px] text-center text-white uppercase">REGISTER FOR THE NEXT AVAILABLE SESSION</p>
+          <p className="font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold leading-[20.709px] relative shrink-0 text-[16.567px] text-center text-white uppercase">RESERVE MY FREE WORKSHOP SEAT</p>
         </div>
       </div>
     </div>
@@ -428,7 +431,7 @@ function ContentSection2() {
   return (
     <div className="bg-white relative shrink-0 w-full" data-name="Content Section">
       <div className="flex flex-col items-center justify-center w-full">
-        <div className="content-stretch flex flex-col gap-[37.967px] items-center justify-center px-4 sm:px-8 md:px-16 lg:px-[235px] py-[37.967px] relative w-full">
+        <div className="max-w-[1728px] mx-auto content-stretch flex flex-col gap-[37.967px] items-center justify-center px-4 sm:px-8 md:px-16 lg:px-[235px] py-[80px] md:py-[110px] relative w-full">
           <div className="font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[#0d1353] text-[38.657px] text-center tracking-[-1.5463px] w-full whitespace-pre-wrap">
             <p className="mb-0">{`Why Technical Consultants Can't Solve This `}</p>
             <p className="font-['Playfair_Display:SemiBold_Italic',sans-serif] font-semibold italic">(But You Can)</p>
@@ -626,15 +629,16 @@ function TextContainer14() {
 }
 
 function ButtonContainer3() {
-  const { openRegistration } = useRegistration();
+  const { openForm } = useFormModal();
   
   return (
-    <div 
-      onClick={openRegistration}
-      className="bg-white content-stretch flex h-[53.154px] items-center justify-center px-[13.806px] py-[11.045px] relative rounded-[27.612px] shrink-0 w-full max-w-[441.799px] cursor-pointer" 
+    <div
+      className="content-stretch flex h-[53.154px] items-center justify-center px-[13.806px] py-[11.045px] relative rounded-[27.612px] shrink-0 w-full max-w-[441.799px] cursor-pointer hover:opacity-90 transition-opacity"
       data-name="Button Container"
+      onClick={openForm}
+      style={{ backgroundImage: "linear-gradient(161.704deg, rgb(170, 69, 232) 26.236%, rgb(36, 69, 255) 86.882%)" }}
     >
-      <p className="font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold leading-[20.709px] relative shrink-0 text-[#0d1353] text-[16.567px] text-center uppercase">REGISTER FOR THE NEXT AVAILABLE SESSION</p>
+      <p className="font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold leading-[20.709px] relative shrink-0 text-white text-[16.567px] text-center uppercase">RESERVE MY FREE WORKSHOP SEAT</p>
     </div>
   );
 }
@@ -650,11 +654,13 @@ function TextContainer13() {
 
 function Image() {
   return (
-    <div className="content-stretch flex flex-col gap-[55.915px] items-center justify-center px-4 sm:px-8 md:px-16 lg:px-[270px] py-[80px] relative shrink-0 w-full" data-name="Image">
+    <div className="relative shrink-0 w-full" data-name="Image">
       <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage} />
-      <TextContainer5 />
-      <ContentContainer2 />
-      <TextContainer13 />
+      <div className="relative z-10 max-w-[1728px] mx-auto content-stretch flex flex-col gap-[55.915px] items-center justify-center px-4 sm:px-8 md:px-16 lg:px-[270px] py-[80px] w-full">
+        <TextContainer5 />
+        <ContentContainer2 />
+        <TextContainer13 />
+      </div>
     </div>
   );
 }
@@ -662,14 +668,9 @@ function Image() {
 function AuthorInfo1() {
   return (
     <div className="content-stretch flex flex-col items-start not-italic relative shrink-0 w-full" data-name="Author Info">
-      <p className="bg-clip-text font-['Manrope:Bold',sans-serif] font-bold leading-[0] relative shrink-0 text-[0px] text-[14.97px] text-white w-full" style={{ backgroundImage: "linear-gradient(90deg, rgb(60, 128, 255) 0%, rgb(117, 34, 189) 100%), linear-gradient(-5.1157deg, rgb(249, 5, 242) 16.982%, rgb(0, 0, 0) 86.805%), linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%)", WebkitTextFillColor: "transparent" }}>
-        <span className="bg-clip-text font-['Inter:Bold',sans-serif] leading-[20.316px]" style={{ backgroundImage: "linear-gradient(90deg, rgb(60, 128, 255) 0%, rgb(117, 34, 189) 100%), linear-gradient(-5.1157deg, rgb(249, 5, 242) 16.982%, rgb(0, 0, 0) 86.805%), linear-gradient(90deg, rgb(13, 19, 83) 0%, rgb(13, 19, 83) 100%)", WebkitTextFillColor: "transparent" }}>
-          RICHARD
-        </span>
-        <span className="bg-clip-text font-['Inter:Light',sans-serif] font-light leading-[20.316px]" style={{ backgroundImage: "linear-gradient(90deg, rgb(60, 128, 255) 0%, rgb(117, 34, 189) 100%), linear-gradient(-5.1157deg, rgb(249, 5, 242) 16.982%, rgb(0, 0, 0) 86.805%), linear-gradient(90deg, rgb(13, 19, 83) 0%, rgb(13, 19, 83) 100%)", WebkitTextFillColor: "transparent" }}>
-          BRANSON
-        </span>
-      </p>
+      <div className="w-[138.414px] h-[11.2273px] relative shrink-0">
+        <AuthorNameBranson />
+      </div>
       <p className="font-['Inter:Regular',sans-serif] font-normal leading-[16.039px] relative shrink-0 text-[10.693px] w-full">Businessman, Investor and Founder of Virgin Group</p>
     </div>
   );
@@ -696,7 +697,7 @@ function ContentSection3() {
   return (
     <div className="bg-[#f5f5fc] relative shrink-0 w-full" data-name="Content Section">
       <div className="flex flex-row items-center justify-center size-full">
-        <div className="content-center flex flex-wrap gap-[11.762px] items-center justify-center px-4 sm:px-8 md:px-16 lg:px-[180px] py-[17.258px] relative w-full">
+        <div className="max-w-[1728px] mx-auto content-center flex flex-wrap gap-[11.762px] items-center justify-center px-4 sm:px-8 md:px-16 lg:px-[180px] py-[17.258px] relative w-full">
           <div className="h-[274.398px] relative shrink-0 w-[239.538px]" data-name="Group 1171275805-1 1">
             <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgGroup117127580511} />
           </div>
@@ -834,7 +835,7 @@ function ContentSection4() {
   return (
     <div className="bg-white relative shrink-0 w-full" data-name="Content Section">
       <div className="flex flex-col items-center size-full">
-        <div className="content-stretch flex flex-col gap-[46.251px] items-center px-4 sm:px-8 md:px-16 lg:px-[270px] py-[75.934px] relative w-full">
+        <div className="max-w-[1728px] mx-auto content-stretch flex flex-col gap-[46.251px] items-center px-4 sm:px-8 md:px-16 lg:px-[270px] py-[75.934px] relative w-full">
           <Container7 />
           <Container10 />
         </div>
@@ -1301,7 +1302,7 @@ function ContentSection5() {
   return (
     <div className="bg-[#f5f5fc] relative shrink-0 w-full" data-name="Content Section">
       <div className="flex flex-col items-center size-full">
-        <div className="content-stretch flex flex-col gap-[44.18px] items-center px-4 sm:px-8 md:px-16 lg:px-[120px] xl:px-[270px] py-[69px] relative w-full">
+        <div className="max-w-[1728px] mx-auto content-stretch flex flex-col gap-[44.18px] items-center px-4 sm:px-8 md:px-16 lg:px-[120px] xl:px-[270px] py-[69px] relative w-full">
           <Container16 />
           <TextContainer15 />
         </div>
@@ -1508,16 +1509,16 @@ function TextContainer24() {
 }
 
 function ButtonContainer4() {
-  const { openRegistration } = useRegistration();
+  const { openForm } = useFormModal();
   
   return (
     <div 
-      onClick={openRegistration}
-      className="content-stretch flex h-[53.154px] items-center justify-center px-[13.806px] py-[11.045px] relative rounded-[27.612px] shrink-0 w-full max-w-[472.172px] cursor-pointer" 
+      className="content-stretch flex h-[53.154px] items-center justify-center px-[13.806px] py-[11.045px] relative rounded-[27.612px] shrink-0 w-full max-w-[472.172px] cursor-pointer hover:opacity-90 transition-opacity" 
       data-name="Button Container" 
+      onClick={openForm}
       style={{ backgroundImage: "linear-gradient(162.437deg, rgb(170, 69, 232) 26.236%, rgb(36, 69, 255) 86.882%), linear-gradient(90deg, rgb(255, 0, 246) 0%, rgb(255, 0, 246) 100%)" }}
     >
-      <p className="font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold leading-[20.709px] relative shrink-0 text-[16.567px] text-center text-white uppercase">REGISTER FOR THE NEXT AVAILABLE SESSION</p>
+      <p className="font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold leading-[20.709px] relative shrink-0 text-[16.567px] text-center text-white uppercase">RESERVE MY FREE WORKSHOP SEAT</p>
     </div>
   );
 }
@@ -1535,7 +1536,7 @@ function ContentSection6() {
   return (
     <div className="bg-white relative shrink-0 w-full" data-name="Content Section">
       <div className="flex flex-col items-center justify-center size-full">
-        <div className="content-stretch flex flex-col gap-[54px] items-center justify-center px-4 sm:px-8 md:px-16 lg:px-[270px] py-[88px] relative w-full">
+        <div className="max-w-[1728px] mx-auto content-stretch flex flex-col gap-[54px] items-center justify-center px-4 sm:px-8 md:px-16 lg:px-[270px] py-[88px] relative w-full">
           <LeadershipTitle />
           <TextContainer17 />
           <TextContainer23 />
@@ -2038,8 +2039,14 @@ function TextContainer34() {
 
 function TextContainer33() {
   return (
-    <div className="flex flex-col gap-[26.232px] items-start relative shrink-0 w-full md:w-[404px] px-5 sm:px-7 md:px-8 pt-6 md:pt-0 pb-8 md:pb-12" data-name="Text Container">
-      <p className="font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold leading-[1.2] relative shrink-0 text-[20px] sm:text-[24px] md:text-[28.993px] text-white tracking-[-0.8px] md:tracking-[-1.1597px] w-full">{`Here's What Happens When You Register:`}</p>
+    // Text side: grows to fill all remaining space, never shrinks below its content
+    <div
+      className="flex-1 min-w-0 flex flex-col gap-[26.232px] items-start px-6 sm:px-8 md:px-10 lg:px-12 pt-8 md:pt-10 pb-8 md:pb-12"
+      data-name="Text Container"
+    >
+      <p className="font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold leading-[1.2] shrink-0 text-[20px] sm:text-[24px] md:text-[28.993px] text-white tracking-[-0.8px] md:tracking-[-1.1597px] w-full">
+        {`Here's What Happens When You Register:`}
+      </p>
       <TextContainer34 />
     </div>
   );
@@ -2047,15 +2054,27 @@ function TextContainer33() {
 
 function TextContainer32() {
   return (
-    <div className="w-full flex flex-col md:flex-row items-end relative" data-name="Text Container">
+    // Horizontal row: text fills (flex-1) | min 64px gap | image fixed-width right side (shrink-0)
+    <div
+      className="relative z-10 w-full flex flex-col md:flex-row md:items-end md:gap-16"
+      data-name="Text Container"
+    >
+      {/* Left: text — fills all available space, text cannot be compressed */}
       <TextContainer33 />
-      <div className="hidden md:flex items-center justify-center relative shrink-0 self-end">
-        <div className="-scale-y-100 flex-none rotate-180">
-          <div className="h-[440.863px] relative w-[403.237px]" data-name="kane 2">
-            <div className="absolute inset-0 overflow-hidden pointer-events-none">
-              <img alt="" className="absolute h-[117.39%] left-[-0.1%] max-w-none top-0 w-[100.21%]" src={imgKane2} />
-            </div>
-          </div>
+
+      {/* Right: Kane image — fixed size, never compresses the text, sits flush to the right */}
+      <div className="hidden md:block shrink-0 self-end">
+        {/* scaleX(-1) mirrors the figure so he faces into the text */}
+        <div
+          className="relative overflow-hidden"
+          style={{ width: "403.237px", height: "440.863px", transform: "scaleX(-1)" }}
+          data-name="kane 2"
+        >
+          <img
+            alt=""
+            className="absolute h-[117.39%] left-[-0.1%] max-w-none top-0 w-[100.21%]"
+            src={imgKane2}
+          />
         </div>
       </div>
     </div>
@@ -2064,8 +2083,18 @@ function TextContainer32() {
 
 function Image1() {
   return (
-    <div className="flex flex-col items-end justify-end overflow-clip pt-[53px] relative rounded-[11.045px] shrink-0 w-full" data-name="Image">
-      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[11.045px] size-full" src={imgImage1} />
+    // Card: full-width within section container, background image bleeds to all card edges
+    <div
+      className="relative overflow-hidden rounded-[11.045px] w-full pt-[53px]"
+      data-name="Image"
+    >
+      {/* Background image — fills the full card */}
+      <img
+        alt=""
+        className="absolute inset-0 max-w-none object-cover pointer-events-none size-full rounded-[11.045px]"
+        src={imgImage1}
+      />
+      {/* Content row — text left, Kane image right */}
       <TextContainer32 />
     </div>
   );
@@ -2093,16 +2122,16 @@ function TextContainer42() {
 }
 
 function ButtonContainer5() {
-  const { openRegistration } = useRegistration();
+  const { openForm } = useFormModal();
   
   return (
     <div 
-      onClick={openRegistration}
-      className="content-stretch flex h-[53.154px] items-center justify-center px-[13.806px] py-[11.045px] relative rounded-[27.612px] shrink-0 w-full max-w-[461.128px] cursor-pointer" 
+      className="content-stretch flex h-[53.154px] items-center justify-center px-[13.806px] py-[11.045px] relative rounded-[27.612px] shrink-0 w-full max-w-[461.128px] cursor-pointer hover:opacity-90 transition-opacity" 
       data-name="Button Container" 
+      onClick={openForm}
       style={{ backgroundImage: "linear-gradient(162.043deg, rgb(170, 69, 232) 26.236%, rgb(36, 69, 255) 86.882%), linear-gradient(90deg, rgb(255, 0, 246) 0%, rgb(255, 0, 246) 100%)" }}
     >
-      <p className="font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold leading-[20.709px] relative shrink-0 text-[16.567px] text-center text-white uppercase">REGISTER FOR THE NEXT AVAILABLE SESSION</p>
+      <p className="font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold leading-[20.709px] relative shrink-0 text-[16.567px] text-center text-white uppercase">RESERVE MY FREE WORKSHOP SEAT</p>
     </div>
   );
 }
@@ -2119,10 +2148,12 @@ function TextContainer40() {
 
 function ContentSection7() {
   return (
-    <div className="bg-[#f9fafb] content-stretch flex flex-col gap-[46.251px] items-center justify-center px-4 sm:px-8 md:px-16 lg:px-[270px] py-[98px] relative shrink-0 w-full" data-name="Content Section">
-      <TextContainer25 />
-      <Image1 />
-      <TextContainer40 />
+    <div className="bg-[#f9fafb] relative shrink-0 w-full" data-name="Content Section">
+      <div className="max-w-[1728px] mx-auto content-stretch flex flex-col gap-[46.251px] items-center justify-center px-4 sm:px-8 md:px-16 lg:px-[270px] py-[98px] relative w-full">
+        <TextContainer25 />
+        <Image1 />
+        <TextContainer40 />
+      </div>
     </div>
   );
 }
@@ -2231,13 +2262,15 @@ function FaqContainer() {
 
 function Faq() {
   return (
-    <div className="content-stretch flex flex-col gap-[49.702px] items-center justify-center px-4 sm:px-8 md:px-16 lg:px-[270px] py-[66px] relative shrink-0 w-full" data-name="FAQ">
+    <div className="relative shrink-0 w-full" data-name="FAQ">
       <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgFaq} />
-      <p className="font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold leading-[0] relative shrink-0 text-[0px] text-center text-white tracking-[-1.5463px] w-full whitespace-pre-wrap">
-        <span className="leading-[normal] text-[38.657px]">{`Frequently Asked `}</span>
-        <span className="font-['Playfair_Display:SemiBold_Italic',sans-serif] font-semibold italic leading-[normal] text-[42.799px]">Questions</span>
-      </p>
-      <FaqContainer />
+      <div className="relative z-10 max-w-[1728px] mx-auto content-stretch flex flex-col gap-[49.702px] items-center justify-center px-4 sm:px-8 md:px-16 lg:px-[270px] py-[66px] w-full">
+        <p className="font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold leading-[0] relative shrink-0 text-[0px] text-center text-white tracking-[-1.5463px] w-full whitespace-pre-wrap">
+          <span className="leading-[normal] text-[38.657px]">{`Frequently Asked `}</span>
+          <span className="font-['Playfair_Display:SemiBold_Italic',sans-serif] font-semibold italic leading-[normal] text-[42.799px]">Questions</span>
+        </p>
+        <FaqContainer />
+      </div>
     </div>
   );
 }
@@ -2262,15 +2295,16 @@ function TextContainer43() {
 }
 
 function ButtonContainer6() {
-  const { openRegistration } = useRegistration();
+  const { openForm } = useFormModal();
   
   return (
-    <div 
-      onClick={openRegistration}
-      className="bg-white content-stretch flex h-[53.154px] items-center justify-center px-[13.806px] py-[11.045px] relative rounded-[27.612px] shrink-0 w-full max-w-[441.799px] cursor-pointer" 
+    <div
+      className="content-stretch flex h-[53.154px] items-center justify-center px-[13.806px] py-[11.045px] relative rounded-[27.612px] shrink-0 w-full max-w-[441.799px] cursor-pointer hover:opacity-90 transition-opacity"
       data-name="Button Container"
+      onClick={openForm}
+      style={{ backgroundImage: "linear-gradient(161.704deg, rgb(170, 69, 232) 26.236%, rgb(36, 69, 255) 86.882%)" }}
     >
-      <p className="font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold leading-[20.709px] relative shrink-0 text-[#0d1353] text-[16.567px] text-center uppercase">REGISTER FOR THE NEXT AVAILABLE SESSION</p>
+      <p className="font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold leading-[20.709px] relative shrink-0 text-white text-[16.567px] text-center uppercase">RESERVE MY FREE WORKSHOP SEAT</p>
     </div>
   );
 }
@@ -2280,7 +2314,7 @@ function Image2() {
     <div className="relative shrink-0 w-full" data-name="Image">
       <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage2} />
       <div className="flex flex-col items-center justify-center size-full">
-        <div className="content-stretch flex flex-col gap-[33.135px] items-center justify-center px-4 sm:px-8 md:px-16 lg:px-[270px] py-[59px] relative w-full">
+        <div className="max-w-[1728px] mx-auto content-stretch flex flex-col gap-[33.135px] items-center justify-center px-4 sm:px-8 md:px-16 lg:px-[270px] py-[59px] relative w-full">
           <TextContainer43 />
           <ButtonContainer6 />
         </div>
@@ -2292,9 +2326,10 @@ function Image2() {
 export default function LandingPage() {
   return (
     <div className="content-stretch flex flex-col items-center relative size-full" data-name="LANDING PAGE">
-      <NavBar />
       <Hero />
       <FeaturedOn />
+      <Frame1707482421 />
+      <StatsStrip />
       <RecognitionSection />
       <Frame3 />
       <ContentSection1 />
@@ -2302,6 +2337,7 @@ export default function LandingPage() {
       <Image />
       <ContentSection3 />
       <ContentSection4 />
+      <TrustpilotSection />
       <ContentSection5 />
       <ContentSection />
       <ContentSection7 />

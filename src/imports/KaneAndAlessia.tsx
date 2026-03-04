@@ -1,5 +1,5 @@
-import imgKaneAndAlessia from "../assets/dfe395181a102ff44587039a4243ebffd502e2e3.png";
-import imgKaneAlessia from "../assets/a7eff2d64e72477d4bd64ebb652bfdf676ddfe00.png";
+import imgKaneAndAlessia from "figma:asset/dfe395181a102ff44587039a4243ebffd502e2e3.png";
+import imgKaneAlessia from "figma:asset/a7eff2d64e72477d4bd64ebb652bfdf676ddfe00.png";
 
 const gradientText =
   "linear-gradient(154.786deg, rgb(170, 69, 232) 26.236%, rgb(36, 69, 255) 86.882%), linear-gradient(90deg, rgb(13, 19, 83) 0%, rgb(13, 19, 83) 100%)";
@@ -46,14 +46,17 @@ function TextBlock() {
       </p>
 
       {/* CTA button */}
-      <button
-        className="flex items-center justify-center w-full sm:w-auto px-[28px] md:px-[43px] py-[11px] rounded-[27.612px] cursor-pointer border-0"
+      <a
+        href="https://kaneandalessia.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex items-center justify-center w-full sm:w-auto px-[28px] md:px-[43px] py-[11px] rounded-[27.612px] cursor-pointer border-0 no-underline"
         style={{ backgroundImage: gradientBtn }}
       >
         <span className="font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold text-[13px] sm:text-[15px] md:text-[16.567px] leading-[20.709px] text-white uppercase">
-          {"VISIT KANE & ALESSIA MINKUS"}
+          {"MEET KANE & ALESSIA MINKUS"}
         </span>
-      </button>
+      </a>
     </div>
   );
 }

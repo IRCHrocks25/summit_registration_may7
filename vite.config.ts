@@ -1,7 +1,32 @@
-import { defineConfig } from 'vite'
+import { defineConfig, Plugin } from 'vite'
 import path from 'path'
 import tailwindcss from '@tailwindcss/vite'
 import react from '@vitejs/plugin-react'
+import fs from 'fs'
+
+// Plugin to resolve figma:asset imports
+function figmaAssetPlugin(): Plugin {
+  return {
+    name: 'figma-asset-resolver',
+    resolveId(id) {
+      if (id.startsWith('figma:asset/')) {
+        // Extract the filename from figma:asset/[hash].png
+        const filename = id.replace('figma:asset/', '')
+        const assetPath = path.resolve(__dirname, './src/assets', filename)
+        
+        // Check if file exists
+        if (fs.existsSync(assetPath)) {
+          // Return the resolved path (Vite will handle it as a normal asset)
+          return assetPath
+        }
+        
+        // If file doesn't exist, return null to let Vite show the error
+        return null
+      }
+      return null
+    },
+  }
+}
 
 export default defineConfig({
   base: '/',
@@ -10,6 +35,7 @@ export default defineConfig({
     // Tailwind is not being actively used – do not remove them
     react(),
     tailwindcss(),
+    figmaAssetPlugin(),
   ],
   resolve: {
     alias: {

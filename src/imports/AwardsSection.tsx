@@ -1,5 +1,5 @@
-import imgAwardsBannerTransparent11 from "../assets/0dc9badc2821c4f3eb71b382e2f90b8c82f36aec.png";
-import imgInc5000ColorMedallionLogo1 from "../assets/83dc785b40b51eb86369ee4a9be6558cb4098db4.png";
+import imgAwardsBannerTransparent11 from "figma:asset/0dc9badc2821c4f3eb71b382e2f90b8c82f36aec.png";
+import imgInc5000ColorMedallionLogo1 from "figma:asset/83dc785b40b51eb86369ee4a9be6558cb4098db4.png";
 
 function AwardsHeaderContainer1() {
   return (
