@@ -1,8 +1,8 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Cred from "../../imports/Cred";
 
 function CountdownTimer() {
-  const targetDate = new Date("2026-04-30T09:00:00-07:00");
+  const targetDate = new Date("2026-05-07T09:00:00+01:00");
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
   const [expired, setExpired] = useState(false);
 
@@ -100,7 +100,7 @@ export function HeroSection() {
           color: "white",
         }}
       >
-        FREE 1-DAY VIRTUAL SUMMIT &nbsp;·&nbsp; AI AGENTS SUMMIT &nbsp;|&nbsp; APRIL 30, 2026 &nbsp;|&nbsp; REGISTER NOW - SEATS ARE LIMITED
+        FREE 1-DAY VIRTUAL SUMMIT &nbsp;·&nbsp; AI AGENTS SUMMIT EUROPE &nbsp;|&nbsp; MAY 7, 2026 &nbsp;|&nbsp; REGISTER NOW - SEATS ARE LIMITED
       </div>
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-16 md:py-20">
@@ -209,7 +209,7 @@ export function HeroSection() {
               }}
             >
               The free AI Agents Summit shows you how to build and orchestrate an AI agent team for every major function in your business — so you stop drowning in execution and start focusing on the work that actually grows your income.{" "}
-              <strong style={{ color: "white" }}>April 30, 2026. Live. Hands-on. Not another intro class.</strong>
+              <strong style={{ color: "white" }}>May 7, 2026. Hands-on. Not another intro class.</strong>
             </p>
 
             {/* Tony Robbins authority quote */}

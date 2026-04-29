@@ -1,3 +1,5 @@
+import React from "react";
+
 import { BookOpen, Target, Award, Users, Zap, DollarSign, Map, Gift } from "lucide-react";
 
 const deliverables = [
@@ -10,7 +12,7 @@ const deliverables = [
   {
     icon: <Target size={22} />,
     title: "The High-Ticket Offer Builder Workshop",
-    desc: "Live workshop revealing how to package your current expertise into $10K–$50K AI consulting offers — with real examples from 7 different industries.",
+    desc: "Workshop revealing how to package your current expertise into $10K–$50K AI consulting offers — with real examples from 7 different industries.",
     value: "$797 Value",
   },
   {
@@ -46,7 +48,7 @@ const deliverables = [
   {
     icon: <Gift size={22} />,
     title: "BONUS: Summit Replay Access",
-    desc: "Can't attend live? Every registered attendee gets full replay access for 30 days — watch on your own schedule.",
+    desc: "Can't attend the session? Every registered attendee gets full replay access for 30 days — watch on your own schedule.",
     value: "Priceless",
   },
 ];

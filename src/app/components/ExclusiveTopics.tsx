@@ -1,10 +1,12 @@
+import React from "react";
+
 const bullets = [
   "The \"agentic mindset\" shift that separates entrepreneurs still dabbling with AI tools from those deploying autonomous agent teams — and why making this shift is the single highest-leverage move you can make in your business right now",
   "How to build your first AI agent in under 2 hours — with no code, no developer, and no prior technical experience — and have it performing a real business function by the end of the day",
   "The orchestration blueprint for connecting your agents into one coordinated operating system where lead gen feeds sales, content feeds marketing, and every agent makes the others smarter over time",
   "Why \"context engineering\" is the real skill behind powerful agents — and how to train your agents on your data, your voice, your frameworks, and your business intelligence so they don't just work generically, they work like YOU",
   "The fastest path from zero to revenue using AI agents — whether you're launching a new business, scaling an existing one, or building a practice as an AI consultant helping companies adopt these systems",
-  "Live agent builds on stage — you'll watch real agents being constructed and deployed in real time, not slides about theory. You'll see exactly how the architecture works and leave with a replicable blueprint",
+  "Agent builds on stage — you'll watch real agents being constructed and deployed in real time, not slides about theory. You'll see exactly how the architecture works and leave with a replicable blueprint",
   "How to validate any new business idea in 48 hours using agents for market intelligence — so you never waste months building something nobody wants",
   "The emerging six-figure opportunity in AI consulting — how everyday professionals are building practices helping businesses adopt AI agent systems, and why the window to establish yourself is right now before the market crowds",
   "How students from the AI Unleashed community have used these exact systems to launch businesses, build consulting practices, and create income streams that didn't exist for them 12 months ago",
@@ -163,7 +165,7 @@ export function ExclusiveTopics() {
                 fontStyle: "italic",
               }}
             >
-              April 30, 2026 · Live & Hands-On · Free
+              May 7, 2026 · Hands-On · Free
             </p>
             <div
               style={{

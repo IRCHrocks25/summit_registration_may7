@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 
 const FORM_SCRIPT_SRC = "https://l.industryrockstars.ch/js/form_embed.js";
 const FORM_SCRIPT_ID = "industry-rockstars-form-embed";
@@ -8,7 +8,7 @@ export function RegistrationFormModal() {
   const [isOpen, setIsOpen] = useState(false);
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
   const hasOpenedOnceRef = useRef(false);
-  const targetDate = new Date("2026-04-30T09:00:00-07:00");
+  const targetDate = new Date("2026-05-07T09:00:00+01:00");
 
   useEffect(() => {
     const openModal = () => {
@@ -154,7 +154,7 @@ export function RegistrationFormModal() {
               padding: "10px 12px",
             }}
           >
-            FREE 1-DAY VIRTUAL SUMMIT · AI AGENTS SUMMIT | APRIL 30, 2026 | REGISTER NOW - SEATS ARE LIMITED
+            FREE 1-DAY VIRTUAL SUMMIT · AI AGENTS SUMMIT EUROPE | MAY 7, 2026 | 9AM UK / 10AM CET | REGISTER NOW - SEATS ARE LIMITED
           </div>
           <div
             style={{
@@ -174,7 +174,19 @@ export function RegistrationFormModal() {
                 marginBottom: "12px",
               }}
             >
-              Summit starts in
+              Countdown to May 7th
+            </p>
+            <p
+              style={{
+                fontSize: "0.7rem",
+                letterSpacing: "0.06em",
+                color: "rgba(255,255,255,0.68)",
+                textTransform: "uppercase",
+                fontWeight: 600,
+                marginBottom: "12px",
+              }}
+            >
+              9AM UK / 10AM CET
             </p>
             <div className="flex items-center justify-center gap-3.5">
               {[
@@ -216,21 +228,21 @@ export function RegistrationFormModal() {
             </div>
           </div>
           <iframe
-            src="https://l.industryrockstars.ch/widget/form/s58n5QGA5Lag7Rpy8Htu"
+            src="https://l.industryrockstars.ch/widget/form/oMuKuvZ15ZgYBOZ9gFeM"
             style={{ width: "100%", height: "100%", border: "none", borderRadius: "3px", minHeight: "570px" }}
-            id="inline-s58n5QGA5Lag7Rpy8Htu"
-            data-layout='{"id":"INLINE"}'
+            id="inline-oMuKuvZ15ZgYBOZ9gFeM"
+            data-layout="{'id':'INLINE'}"
             data-trigger-type="alwaysShow"
             data-trigger-value=""
             data-activation-type="alwaysActivated"
             data-activation-value=""
             data-deactivation-type="neverDeactivate"
             data-deactivation-value=""
-            data-form-name="FB - AI Assisted Global Summit - April 30, 2026"
+            data-form-name="FB - AI Assisted Global Summit Europe - May 7, 2026"
             data-height="570"
-            data-layout-iframe-id="inline-s58n5QGA5Lag7Rpy8Htu"
-            data-form-id="s58n5QGA5Lag7Rpy8Htu"
-            title="FB - AI Assisted Global Summit - April 30, 2026"
+            data-layout-iframe-id="inline-oMuKuvZ15ZgYBOZ9gFeM"
+            data-form-id="oMuKuvZ15ZgYBOZ9gFeM"
+            title="FB - AI Assisted Global Summit Europe - May 7, 2026"
           />
         </div>
       </div>

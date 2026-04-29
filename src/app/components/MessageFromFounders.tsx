@@ -1,3 +1,5 @@
+import React from "react";
+
 import founderImage from "figma:asset/f7001681e551729a1034ae3aea466fe552e98c50.png";
 
 export function MessageFromFounders() {
@@ -172,7 +174,7 @@ export function MessageFromFounders() {
                       WebkitTextFillColor: "transparent",
                     }}
                   >
-                    This summit is the live version of that work.
+                    This summit is the hands-on version of that work.
                   </strong>
                 </p>
               </div>
@@ -205,7 +207,7 @@ export function MessageFromFounders() {
                 SAVE MY FREE SEAT →
               </button>
               <p style={{ fontSize: "0.82rem", color: "#A01F6A", fontWeight: 600, letterSpacing: "0.04em" }}>
-                Only 2,000 live seats available — reserve yours now.
+                Only 2,000 seats available — reserve yours now.
               </p>
             </div>
           </div>

@@ -1,3 +1,5 @@
+import React from "react";
+
 import { Gift } from "lucide-react";
 import summitPhoto from "figma:asset/293d15ce4546177ba2eb6b975c9824860324ed96.png";
 
@@ -136,7 +138,7 @@ export function FreeGiftSection() {
             >
               <Gift size={16} color="#F272B6" className="shrink-0" />
               <p style={{ fontSize: "0.9rem", color: "rgba(255,255,255,0.85)", lineHeight: 1.6 }}>
-                <strong style={{ color: "#FFADD6" }}>PLUS:</strong> A free gift for every live attendee — details revealed at the summit.
+                <strong style={{ color: "#FFADD6" }}>PLUS:</strong> A free gift for every attendee — details revealed at the summit.
               </p>
             </div>
 
@@ -156,7 +158,7 @@ export function FreeGiftSection() {
               </button>
             </div>
             <p style={{ fontSize: "0.78rem", color: "rgba(255,255,255,0.4)", marginTop: "10px", lineHeight: 1.5 }}>
-              Live and interactive. Seats are limited. This is not a passive webinar.
+              Interactive and hands-on. Seats are limited. This is not a passive webinar.
             </p>
           </div>
 

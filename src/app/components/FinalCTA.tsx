@@ -1,9 +1,9 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { Shield, Users, CheckCircle } from "lucide-react";
 import bgImage from "figma:asset/4481ebc46d957e81b10819e084552dae04c662fe.png";
 
 function Countdown() {
-  const targetDate = new Date("2026-04-30T09:00:00-07:00");
+  const targetDate = new Date("2026-05-07T09:00:00+01:00");
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
 
   useEffect(() => {
@@ -160,7 +160,7 @@ export function FinalCTA() {
               WebkitTextFillColor: "transparent",
             }}
           >
-            Register free. Show up live. Build your agent team.
+            Register free. Show up ready. Build your agent team.
           </strong>
         </p>
 
@@ -202,7 +202,7 @@ export function FinalCTA() {
             marginBottom: "32px",
           }}
         >
-          April 30, 2026 | Free | Live &amp; Hands-On | Limited Seats
+          May 7, 2026 | Free | Hands-On | Limited Seats
         </p>
 
         {/* Trust signals */}

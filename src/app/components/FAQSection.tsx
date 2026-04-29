@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 
 const faqs = [
   {
@@ -16,7 +16,7 @@ const faqs = [
   {
     question: "How is this different from other AI events?",
     answer: (
-      <p>Most AI events show you tools and talk about possibilities. This summit shows you how to <strong style={{ color: "#0B1D3A" }}>build and deploy autonomous AI agent teams</strong> across six specific business functions — live, on screen, step by step. You'll watch agents being built in real time. You'll leave with a deployable blueprint, not a list of apps to download.</p>
+      <p>Most AI events show you tools and talk about possibilities. This summit shows you how to <strong style={{ color: "#0B1D3A" }}>build and deploy autonomous AI agent teams</strong> across six specific business functions on screen, step by step. You'll watch agents being built in real time. You'll leave with a deployable blueprint, not a list of apps to download.</p>
     ),
   },
   {
@@ -29,12 +29,11 @@ const faqs = [
     question: "When is it and will there be a replay?",
     answer: (
       <>
-        <p>April 30, 2026. 9 AM Pacific / 12 PM Eastern / 6 PM Central European. Approximately 6 hours, live and interactive.</p>
+        <p>May 7, 2026. 9 AM UK / 10 AM Central European. Approximately 6 hours, interactive and hands-on.</p>
         <div className="mt-3 flex flex-wrap gap-3">
           {[
-            { time: "9 A.M.", zone: "PACIFIC TIME" },
-            { time: "12 P.M.", zone: "EASTERN TIME" },
-            { time: "6 P.M.", zone: "CENTRAL EUROPEAN TIME" },
+            { time: "9 A.M.", zone: "UK TIME" },
+            { time: "10 A.M.", zone: "CENTRAL EUROPEAN TIME" },
           ].map((t, i) => (
             <div
               key={i}
@@ -62,7 +61,7 @@ const faqs = [
             </div>
           ))}
         </div>
-        <p className="mt-3" style={{ color: "#5a5a72" }}>This event is designed around real-time participation, live builds, and Q&A. Register now and show up live — <strong style={{ color: "#0B1D3A" }}>the experience is not the same on replay.</strong></p>
+        <p className="mt-3" style={{ color: "#5a5a72" }}>This event is designed around real-time participation, hands-on builds, and Q&A. Register now and show up for the full session — <strong style={{ color: "#0B1D3A" }}>the experience is not the same on replay.</strong></p>
       </>
     ),
   },
@@ -266,7 +265,7 @@ export function FAQSection() {
               letterSpacing: "0.04em",
             }}
           >
-            Only 2,000 live seats available — reserve yours now.
+            Only 2,000 seats available — reserve yours now.
           </p>
         </div>
 

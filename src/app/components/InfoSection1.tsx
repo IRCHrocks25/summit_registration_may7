@@ -1,3 +1,5 @@
+import React from "react";
+
 import img1 from "figma:asset/783fe7facd665fca93acc79aeb750cfbec7910f6.png";
 import img2 from "figma:asset/51e7d94806b0317ed23024759a1563f0fbbf942d.png";
 import img3 from "figma:asset/485d655c97e8425d4bd56595cf8ccbc4910c8d3b.png";
@@ -157,10 +159,10 @@ export function InfoSection1() {
               }}
             >
               <p style={{ color: "rgba(255,255,255,0.8)", fontSize: "0.62rem", letterSpacing: "0.14em", fontWeight: 600, marginBottom: 4 }}>
-                LIVE APRIL 30, 2026
+                MAY 7, 2026
               </p>
               <p style={{ color: "white", fontSize: "1.7rem", fontWeight: 800, lineHeight: 1 }}>6 HRS</p>
-              <p style={{ color: "rgba(255,255,255,0.7)", fontSize: "0.7rem", marginTop: 2 }}>Hands-on live builds</p>
+              <p style={{ color: "rgba(255,255,255,0.7)", fontSize: "0.7rem", marginTop: 2 }}>Hands-on agent builds</p>
             </div>
           </div>
 
@@ -236,8 +238,8 @@ export function InfoSection1() {
               </p>
 
               <p style={{ fontSize: "1rem", color: "#4a4a60", lineHeight: 1.85 }}>
-                On April 30th, at the free AI Agents Summit, we're showing you how to build that team.{" "}
-                <strong style={{ color: "#0B1D3A" }}>Agent by agent. Function by function. Live and hands-on.</strong>
+                On May 7th, at the free AI Agents Summit Europe, we're showing you how to build that team.{" "}
+                <strong style={{ color: "#0B1D3A" }}>Agent by agent. Function by function. Hands-on.</strong>
               </p>
 
               {/* Signature */}
@@ -268,7 +270,7 @@ export function InfoSection1() {
                 SAVE MY FREE SEAT →
               </button>
               <p style={{ fontSize: "0.82rem", color: "#A01F6A", fontWeight: 600, letterSpacing: "0.04em" }}>
-                Only 2,000 live seats available — reserve yours now.
+                Only 2,000 seats available — reserve yours now.
               </p>
             </div>
           </div>

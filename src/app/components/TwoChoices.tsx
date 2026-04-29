@@ -1,3 +1,4 @@
+import React from "react";
 import decisionBg from "figma:asset/b235cbe45040abbf4791fdb71709e2bae7d8d18e.png";
 
 export function TwoChoices() {
@@ -186,7 +187,7 @@ export function TwoChoices() {
             <div style={{ height: "1px", background: "rgba(214,51,132,0.2)" }} />
 
             <p style={{ fontSize: "0.95rem", color: "rgba(255,255,255,0.8)", lineHeight: 1.85 }}>
-              Or you can spend 10 seconds registering for a free event where two of the world's most respected AI business mentors show you — live, step by step — how to build an AI agent team that handles your lead generation, content creation, product development, marketing, sales, and operations.
+              Or you can spend 10 seconds registering for a free event where two of the world's most respected AI business mentors show you, step by step, how to build an AI agent team that handles your lead generation, content creation, product development, marketing, sales, and operations.
             </p>
 
             <div className="flex items-center gap-3 mt-auto pt-2">
@@ -243,7 +244,7 @@ export function TwoChoices() {
               letterSpacing: "0.04em",
             }}
           >
-            April 30, 2026 | Free | Live &amp; Hands-On | Limited Seats
+            May 7, 2026 | Free | Hands-On | Limited Seats
           </p>
         </div>
 
